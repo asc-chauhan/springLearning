@@ -1,6 +1,6 @@
-package com.loose.coupling;
+package com.ioc.coupling;
 
-public class LooseCouplingExample {
+public class IOCExample {
     public static void main(String[] args) {
         UserDataProvider databaseProvider = new UserDatabaseProvider();
         UserManager userManagerWithDB = new UserManager(databaseProvider);
